@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Else in JS</title>
+    <script>
+        var a = 1;
+        {
+            let a = 98; //a is local here hence no error came
+            let c = 56;
+            var d = 5;
+            console.log(a);
+            console.log(c);
+        }
+        if(a==1){
+            console.log("hello");
+        }
+        var a = 0;
+        console.log(a);
+        console.log("d="+d);
+        let b = 89;
+        // Errorconsole.log(c);
+        // let b = 5 ERROR b already defined
+        // var is global and multidefinable 
+        // let is block and single definable
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
